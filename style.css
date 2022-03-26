@@ -1,0 +1,323 @@
+html {
+	scroll-behavior : smooth;
+}
+body {
+	margin : 0;
+	padding : 0;
+}
+.navbar {
+	display: flex;
+}
+.navbar img {
+	margin: 3px 0 0 5px;
+}
+ul {
+	list-style: none;
+	margin-left: 55px;
+}
+li {
+	display: inline-block;
+	padding: 0 5px;
+}
+li a {
+	text-decoration: none;
+	font-family: arial sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	color: grey;	
+}
+li a:hover {
+	font-size: 9px;
+	background: #ffd147;
+	border-radius: 3px;
+	transition-duration: 0.2s;
+	color: black;
+}
+header {
+	widht: 40px;
+	height: 200px;
+	background: url('../asset/head.jpg');
+	background-size: cover;
+	margin-top: -10px;
+	word-warp: break-word;
+}
+.judul {
+	widht: 30px;
+	margin: -40px 100px 40px 10px;
+}
+header .judul h3 {
+	font-family: arial, sans-serif;
+	padding-top: 40px;
+}
+header .judul p {
+	font-family: arial, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	padding-top: -45px;
+	margin: 10px 20px 10px 0;
+}
+header .judul button {
+	background: #ffd147;
+	border-color: #ffd147;
+	border-radius: 25px;
+	color : white;
+	widht: 15px;
+	height: 15px;
+	font-size: 9px;
+	font-weight: bold;
+	position : relative;
+	top: -5px;
+}
+.judul button a {
+	text-decoration: none;
+	color : grey;
+}
+header .judul button:hover {
+	cursor: pointer;
+}
+header .judul img {
+	position: absolute;
+	left: 250px;
+	top: 50px;
+	border-radius: 40px 0 40px 0;
+}
+#about_me {
+	widht: 100%;
+	height: 250px;
+}
+#about_me h4{
+	text-align: center;
+	font-family: arial, sans-serif;
+	padding-top: 10px;
+	border-bottom: 2px solid #ffd147;
+	margin: 5px 145px;
+}
+#about_me .container1 {
+	margin: 5px 10px;
+	height: 200px;
+}
+#about_me .container1 img {
+	padding: 30px 10px;
+	border-radius: 90px 0 90px 0;
+	float: left;
+}
+#about_me .container1 p {
+	padding : 30px 10px;
+	font-size : 10px;
+	font-family: arial, sans-serif;
+}
+.kontak {
+	position : relative;
+	top: -35px;
+	left:145px;
+	width: 100px;
+	display: flex;
+}
+.kontak a{
+	margin : 0 4px;
+}
+#h h4 {
+	position: relative;
+	bottom: -28px;
+	text-align: center;
+	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+	padding-top: 10px;
+	border-bottom: 2px solid #ffd147;
+	margin: 5px 140px;
+}
+#experience {
+	widht: 100%;
+	height: 200px;
+	background: #a3e5db;
+	display: flex;
+}
+#experience .kotak1 {
+	background: #c0f0e6;
+	text-align: center;
+	padding: 2px 5px;
+	border-radius: 10px ;
+	border: 1px solid #ffd147;
+	margin: 28px 18px;
+	flex: 2;
+}
+#experience .kotak2 {
+	background: #c0f0e6;
+	text-align: center;
+	padding: 2px 5px;
+	border: 1px solid #ffd147;
+	border-radius: 10px ;
+	margin: 28px 18px;
+	flex: 2;
+}
+
+#certificate h4{
+	text-align: center;
+	font-family: arial, sans-serif;
+	padding-top: 10px;
+	border-bottom: 2px solid #ffd147;
+	margin: 5px 50px;
+}
+.slider {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: 30px 0;
+}
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.slides::-webkit-scrollbar { width: 5px; height: 3px; }
+.slides::-webkit-scrollbar-thumb { background: #a3e5db; border-radius: 5px; }
+.slides::-webkit-scrollbar-track { background: transparent; }
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 350px;
+  height: 240px;
+  margin: 0 5px 0 8px;
+  border-radius: 7px;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  border: 1px solid #a3e5db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 100%;
+}
+.slides .c1 {
+	background : url('../asset/c7.jpg');
+	background-size: cover;
+}
+.slides .c2 {
+	background : url('../asset/c1.jpg');
+	background-size: cover;
+}
+.slides .c3 {
+	background : url('../asset/c2.jpg');
+	background-size: cover;
+}
+.slides .c4 {
+	background : url('../asset/c4.jpg');
+	background-size: cover;
+}
+.slides .c5 {
+	background : url('../asset/c5.jpg');
+	background-size: cover;
+}
+.slides .c6 {
+	background : url('../asset/c6.jpg');
+	background-size: cover;
+}
+.slides .c7 {
+	background : url('../asset/c3.jpg');
+	background-size: cover;
+}
+#P h4 {
+	position: relative;
+	bottom: -28px;
+	text-align: center;
+	font-family: arial, sans-serif;
+	padding-top: 10px;
+	border-bottom: 2px solid #ffd147;
+	margin: 5px 140px;
+}
+#portofolio {
+	widht: 100px;
+	height: 200px;
+	background: #a3e5db;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px;
+}
+#p-hover {
+	widht: 100px;
+	height: 200px;
+	background: none;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px;
+	position: absolute;
+	top: 1063px;
+	left: 29.9px;
+	transparant: 
+}
+#portofolio .kotak1 {
+	background: url('../asset/h1.jpg');
+	background-size: cover;
+	text-align: center;
+	margin: 30px 10px 8px 0;
+}
+#portofolio .kotak2 {
+	background: url('../asset/h2.jpg');
+	background-size: cover;
+	text-align: center;
+	margin: 30px 10px 8px 0;
+}
+#portofolio .kotak3 {
+	background: url('../asset/h3.jpg');
+	background-size: cover;
+	text-align: center;
+	margin: 30px 10px 8px 0;
+}
+#portofolio .kotak4 {
+	background: url('../asset/h4.jpg');
+	background-size: cover;
+	text-align: center;
+	margin: 0 10px 30px 0;
+}
+#portofolio .kotak5 {
+	background: url('../asset/h1.jpg');
+	background-size: cover;
+	text-align: center;
+	margin: 0 10px 30px 0;
+}
+#portofolio .kotak6 {
+	background: url('../asset/h1.jpg');
+	background-size: cover;
+	text-align: center;
+	margin: 0 10px 30px 0;
+}
+#p-hover .k1, .k2, .k3, .k4, .k5, .k6 {
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+	padding: 10px 7px;
+	margin: 30px 10px 8px 0;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+#p-hover .k4, .k5, .k6 {
+	margin: 0 10px 30px 0;
+}
+#p-hover .k1:hover, .k2:hover, .k3:hover, .k4:hover, .k5:hover, .k6:hover {
+	opacity: 1;
+}
+#skills {
+	margin-bottom: -28px;
+	padding-left: 15px;
+	margin:0;
+}
+footer {
+	background: #a3e5db;
+	widht: 100%;
+	height: 30px;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+footer p {
+	text-align: center;
+	color: black;
+	font-family: arial sans-serif;
+	font-size: 9px;
+	padding-top: 13px;
+}
