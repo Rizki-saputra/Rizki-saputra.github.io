@@ -5,33 +5,30 @@ body {
 	margin : 0;
 	padding : 0;
 }
-.navbar {
-	display: flex;
-}
-.navbar img {
-	margin: 3px 0 0 5px;
-}
-ul {
-	list-style: none;
-	margin-left: 55px;
-}
-li {
-	display: inline-block;
-	padding: 0 5px;
+ inline;
+	margin: 0;
 }
 li a {
 	text-decoration: none;
-	font-family: arial sans-serif;
-	font-size: 8px;
+	font-family:Verdana,Arial,sans-serif;
+	font-size: 9px;
 	font-weight: bold;
-	color: grey;	
+	color: #f0ffff;
+	padding: 3px;
 }
 li a:hover {
 	font-size: 9px;
-	background: #ffd147;
+	background: #000;
 	border-radius: 3px;
-	transition-duration: 0.2s;
-	color: black;
+	transition-duration: 0.5s;
+	color: #f0ffff;
+}
+.brand a {
+	text-decoration: none;
+	font-family:Verdana,Arial,sans-serif;
+	font-size: 13px;
+	color: #f0ffff;
+	margin-left: 3px;
 }
 header {
 	widht: 40px;
